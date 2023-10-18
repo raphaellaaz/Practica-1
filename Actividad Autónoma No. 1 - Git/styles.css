@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.image-zoom {
+    text-align: center;
+}
+
+.zoomable {
+    width: 50%;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+}
